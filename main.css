@@ -430,7 +430,8 @@ body {
 .options_wrapper {
 	display: none;
 	position: absolute;
-	width: calc(100% - 44px);
+	width: calc(100% - 64px);
+	max-width: 416px;
 	margin-top: 51px;
 	background-color: var(--white-color);
 	border: 1px solid #384d44;
