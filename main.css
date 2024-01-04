@@ -118,12 +118,17 @@ body {
 }
 
 .ticker_text {
+	display: flex;
 	padding: 17px 0;
 	font-size: 16px;
 	line-height: 18px;
 	animation: ticker 3s infinite linear;
 	animation-fill-mode: both;
+	-webkit-animation-fill-mode: both;
 	white-space: nowrap;
+}
+
+.ticker_span {
 }
 
 @keyframes ticker {
