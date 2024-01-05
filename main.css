@@ -51,6 +51,11 @@ body {
 /* main block */
 
 .main_block {
+	background: linear-gradient(
+			180deg,
+			rgba(0, 0, 0, 0.8) 0%,
+			rgba(0, 0, 0, 0) 48.19%
+		);
 	position: relative;
 	padding-bottom: 32px;
 }
