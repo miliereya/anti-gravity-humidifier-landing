@@ -10,7 +10,7 @@ function byId(id) {
 
 // Timer
 
-let timerValue = Math.floor((+new Date(2023, 12, 8) - +new Date()) / 1000)
+let timerValue = Math.floor((+new Date(2023, 12, 12) - +new Date()) / 1000)
 
 function timerTick() {
 	const time = []
