@@ -10,16 +10,16 @@ function byId(id) {
 
 // Timer
 
-let timerValue = Math.floor((+new Date(2023, 12, 12) - +new Date()) / 1000)
+let timerValue = Math.floor((+new Date(2024, 30, 10) - +new Date()) / 1000) - 420
 
 function timerTick() {
 	const time = []
 	const h = Math.floor(timerValue / 3600)
-
+console.log(h)
 	if (h > 9) {
 		const hours = h.toString()
-		time[0] = hours[0]
-		time[1] = hours[1]
+		time[0] = hours[hours.length - 2]
+		time[1] = hours[hours.length - 1]
 	} else {
 		time[0] = '0'
 		time[1] = h
