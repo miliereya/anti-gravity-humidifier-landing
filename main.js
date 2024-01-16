@@ -15,7 +15,6 @@ let timerValue = Math.floor((+new Date(2024, 30, 10) - +new Date()) / 1000) - 42
 function timerTick() {
 	const time = []
 	const h = Math.floor(timerValue / 3600)
-console.log(h)
 	if (h > 9) {
 		const hours = h.toString()
 		time[0] = hours[hours.length - 2]
